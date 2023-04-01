@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="717a28e7-5fe2-4473-8983-0116a8c3e89d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lab_Assignment_2/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_Assignment_2/MainC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_Assignment_2/Person.java" afterDir="false" />
+    <list default="true" id="717a28e7-5fe2-4473-8983-0116a8c3e89d" name="Changes" comment="Lab_Assignment 2.0">
+      <change afterPath="$PROJECT_DIR$/src/Lab_Assignment_3/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_Assignment_3/Clerk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_Assignment_3/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +38,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RunManager">
@@ -70,6 +70,24 @@
       <option name="presentableId" value="Default" />
       <updated>1679563471625</updated>
     </task>
+    <task id="LOCAL-00001" summary="Lab_Assignment 2.0">
+      <created>1679966407017</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679966407017</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lab2" />
+    <MESSAGE value="Lab_Assignment 2.0" />
+    <MESSAGE value="Lab_Assignment 3.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab_Assignment 3.0" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
