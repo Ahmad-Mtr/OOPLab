@@ -1,0 +1,21 @@
+
+Fixed-Array
+------
+ArrayList<>     size:0      object-type:1       Dup:1       sort:0
+ArrayList       size:0      object-type:0       Dup:1       sort:0
+
+LinkedList<>    size:0      object-type:1       Dup:1       sort:1
+LinkedList      size:0      object-type:0       Dup:1       sort:1
+
+HashSet<>       size:0      object-type:1       Dup:0       sort:0
+HashSet         size:0      object-type:0       Dup:0       sort:0
+
+TreeSet<>       size:0      object-type:1       Dup:0       sort:1
+TreeSet         size:0      object-type:0       Dup:0       sort:1
+
+HashMap<Key,Value>          object-type:1                   sort:0
+HashMap                     object-type:0                   sort:0
+
+TreeMap<Key,Value>          object-type:1                   sort:1
+TreeMap                     object-type:0                   sort:1
+
