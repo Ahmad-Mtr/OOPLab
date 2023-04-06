@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="717a28e7-5fe2-4473-8983-0116a8c3e89d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOPLab.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dat_package/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dat_package/Clerk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dat_package/Client.java" afterDir="false" />
+    <list default="true" id="717a28e7-5fe2-4473-8983-0116a8c3e89d" name="Changes" comment="Lab_Assignment 2.0">
+      <change afterPath="$PROJECT_DIR$/src/Lab_Assignment_3/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_Assignment_3/Clerk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab_Assignment_3/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +37,30 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="MainC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab_Assignment_2.MainC" />
+      <module name="OOPLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab_Assignment_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainC" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,6 +70,24 @@
       <option name="presentableId" value="Default" />
       <updated>1679563471625</updated>
     </task>
+    <task id="LOCAL-00001" summary="Lab_Assignment 2.0">
+      <created>1679966407017</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679966407017</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lab2" />
+    <MESSAGE value="Lab_Assignment 2.0" />
+    <MESSAGE value="Lab_Assignment 3.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab_Assignment 3.0" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
