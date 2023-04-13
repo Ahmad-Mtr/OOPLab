@@ -70,9 +70,8 @@ public class Client {
 
     public void printBalance() {
         for (int i = 0; i < accounts.size(); i++) {
-            System.out.println(accounts.get(i).getBalance());
-            System.out.println("Balance is: ");
-            System.out.println(accounts.get(i).getBalance());
+            System.out.println(accounts.get(i).getNumber());
+            System.out.println("Balance is: " + accounts.get(i).getBalance());
         }
     }
 
@@ -82,7 +81,7 @@ public class Client {
                 accounts.get(maqlubah).TakeOff(sum);
                 printBalance();
             } else {
-                System.out.println("Index d.n.e, using 1st Account.");
+                System.out.println("Index d.n.e, using 1st Account...");
                 accounts.get(0).TakeOff(sum);
                 printBalance();
             }
@@ -97,7 +96,7 @@ public class Client {
                 accounts.get(maqlubah).PayIn(sum);
                 printBalance();
             } else {
-                System.out.println("Index d.n.e, using 1st Account.");
+                System.out.println("Index d.n.e, using 1st Account...");
                 accounts.get(0).PayIn(sum);
                 printBalance();
             }
@@ -112,7 +111,7 @@ public class Client {
                 accounts.get(maqlubah).setClerk(c);
                 printBalance();
             } else {
-                System.out.println("Index d.n.e, using 1st Account.");
+                System.out.println("Index d.n.e, using 1st Account...");
                 accounts.get(0).setClerk(c);
                 printBalance();
             }
