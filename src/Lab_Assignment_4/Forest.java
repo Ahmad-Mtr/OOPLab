@@ -55,17 +55,17 @@ public class Forest {
         Iterator<Tree> itrTree = trees.iterator();
         Tree t;
         while (itrTree.hasNext()){
-            /* {     // The Original Approach, this causes an "Exception in thread "main" ".
+             {     // The Original Approach, this causes an "Exception in thread "main" ".
                     // Uncomment this block and comment the below in order to run.
             t= itrTree.next();
             if (t.isFruitful()){
-                trees.remove(t);
+                itrTree.remove();
             }
-            } */
+            }
 
-            if (itrTree.next().isFruitful() ){ // A different approach that works
+           /* if (itrTree.next().isFruitful() ){ // A different approach that works
                 trees.removeIf(Tree::isFruitful);
-            }
+            }*/
         }
     }
 }

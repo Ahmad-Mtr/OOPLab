@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="717a28e7-5fe2-4473-8983-0116a8c3e89d" name="Changes" comment="Lab_Assignment 3.0">
-      <change afterPath="$PROJECT_DIR$/src/Lab_Assignment_4/Forest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_Assignment_4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_Assignment_4/Tree.java" afterDir="false" />
+    <list default="true" id="717a28e7-5fe2-4473-8983-0116a8c3e89d" name="Changes" comment="Lab_Assignment 4.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_Assignment_3/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_Assignment_3/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_Assignment_4/Forest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_Assignment_4/Forest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +33,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/youse/IdeaProjects/OOPLab/src/Lab_Assignment_4",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/youse/IdeaProjects/OOPLab/src/Lab_Assignment_4&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\youse\IdeaProjects\OOPLab\src\Lab_Assignment_4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\youse\IdeaProjects\OOPLab\src\Lab_Assignment_2" />
+      <recent name="C:\Users\youse\IdeaProjects\OOPLab\src\Lab_Assignment_3" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab_Assignment_4.Main" />
@@ -102,14 +110,22 @@
       <option name="project" value="LOCAL" />
       <updated>1680337585914</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lab_Assignment 4.0">
+      <created>1681382337758</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681382337758</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lab2" />
     <MESSAGE value="Lab_Assignment 2.0" />
     <MESSAGE value="Lab_Assignment 3.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab_Assignment 3.0" />
+    <MESSAGE value="Lab_Assignment 4.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab_Assignment 4.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

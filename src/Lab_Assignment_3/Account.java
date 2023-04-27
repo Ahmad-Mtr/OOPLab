@@ -107,6 +107,7 @@ public class Account {
             for (int i = 0; i < transactions.length; i++) {
                 transactions[i] = transactions[i + 1];
             }
+
             transactions[transactions.length - 1] = Mansaf;
 
             /*the String is written at index “arraylength-1” of the array*/
