@@ -1,6 +1,6 @@
 package Lab_Assignment_2;
 
-public class MainC {
+public class MainFF {
     public static void main(String args[]){
         System.out.println("Hellow Wolrds!");
         Person Ahmad = new Person("Ahmad","07772", "Amman");

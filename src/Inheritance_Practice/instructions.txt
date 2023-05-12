@@ -1,0 +1,12 @@
+Write  the  Java  class  and  sub-classes  for  the  structure  in  the figure  and according to the following descriptions:
+  •Color:
+          1. Has one attribute name of type String that is set in the constructor.
+          2. oImplements the method print(). It prints the name of the color.
+          3. Overrides the method toString() in class Flower that prints the plant code, flower name,  and the color.
+  •Flower:
+         1. Has one attribute name of type String that is set in the constructor
+         2. Implements the method print(). It prints the name of the Flower.
+         3. Overrides the method toString() in class Plant. It returns the plant code and the flower name.
+  •Plant:
+         1. Has one attribute of type String named plantcode that is set in the constructor.
+         2. Overrides the method toString() of class Object. This method returns the plant code.
