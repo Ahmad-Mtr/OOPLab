@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="717a28e7-5fe2-4473-8983-0116a8c3e89d" name="Changes" comment="Inheritance Practice">
-      <change afterPath="$PROJECT_DIR$/src/Lab_Assignment_Inheritance/AClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_Assignment_Inheritance/Class1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_Assignment_Inheritance/Interface1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_Assignment_Inheritance/Interface2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_Assignment_Inheritance/MyClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_Assignment_Inheritance/MyClass2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_Assignment_Inheritance/MyInterface1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance_Practice/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance_Practice/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_Assignment_Inheritance/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_Assignment_Inheritance/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_Assignment_Inheritance/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_Assignment_Inheritance/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_Assignment_Inheritance/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_Assignment_Inheritance/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_Assignment_Inheritance/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_Assignment_Inheritance/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_Assignment_Inheritance/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_Assignment_Inheritance/Student.java" afterDir="false" />
-    </list>
+    <list default="true" id="717a28e7-5fe2-4473-8983-0116a8c3e89d" name="Changes" comment="Inheritance Practice" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683915870388</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Inheritance Practice">
+      <created>1684881520532</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684881520532</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
