@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="717a28e7-5fe2-4473-8983-0116a8c3e89d" name="Changes" comment="Inheritance Practice" />
+    <list default="true" id="717a28e7-5fe2-4473-8983-0116a8c3e89d" name="Changes" comment="Inheritance Practice">
+      <change afterPath="$PROJECT_DIR$/src/Calculator/Calc_Operations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculator/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,13 +57,13 @@
       <recent name="C:\Users\youse\IdeaProjects\OOPLab\src\Lab_Assignment_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainPP">
-    <configuration name="City" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pppp.City" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.GUI" />
       <module name="OOPLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pppp.*" />
+          <option name="PATTERN" value="GUI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inheritance_Practice.MainC" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Calculator.Main" />
       <module name="OOPLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Inheritance_Practice.*" />
+          <option name="PATTERN" value="Calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,19 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyClass2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab_Assignment_Inheritance.MyClass2" />
-      <module name="OOPLab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab_Assignment_Inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StudentNameChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pppp.StudentNameChecker" />
       <module name="OOPLab" />
@@ -118,20 +110,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.main" />
+      <module name="OOPLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.City" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.main" />
+      <item itemvalue="Application.GUI" />
       <item itemvalue="Application.MainPP" />
-      <item itemvalue="Application.MyClass2" />
       <item itemvalue="Application.StudentNameChecker" />
-      <item itemvalue="Application.MainC" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.GUI" />
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.MainPP" />
         <item itemvalue="Application.StudentNameChecker" />
-        <item itemvalue="Application.City" />
-        <item itemvalue="Application.MyClass2" />
-        <item itemvalue="Application.MainC" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684881520532</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Inheritance Practice">
+      <created>1684882056739</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684882056739</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
