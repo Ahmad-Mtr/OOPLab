@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="717a28e7-5fe2-4473-8983-0116a8c3e89d" name="Changes" comment="Calculator v0.1">
-      <change afterPath="$PROJECT_DIR$/src/GUI_Practice/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator/Calc_Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator/Calc_Operations.java" afterDir="false" />
+    <list default="true" id="717a28e7-5fe2-4473-8983-0116a8c3e89d" name="Changes" comment="Calculator v0.2">
       <change beforePath="$PROJECT_DIR$/src/Calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +55,7 @@
       <recent name="C:\Users\youse\IdeaProjects\OOPLab\src\Lab_Assignment_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GUI_Practice.GUI">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GUI.GUI" />
       <module name="OOPLab" />
@@ -134,8 +130,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GUI_Practice.GUI" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.GUI_Practice.GUI" />
         <item itemvalue="Application.GUI" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.MainPP" />
@@ -200,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685315696121</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Calculator v0.2">
+      <created>1685347858811</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685347858811</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,7 +224,8 @@
     <MESSAGE value="Lab_Assignment 4.0" />
     <MESSAGE value="Inheritance Practice" />
     <MESSAGE value="Calculator v0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculator v0.1" />
+    <MESSAGE value="Calculator v0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculator v0.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

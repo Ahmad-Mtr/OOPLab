@@ -166,183 +166,186 @@ public class Calculator implements ActionListener {
         String field1 = _TF_A.getText();
 
         String field2 = _TF_B.getText();
+        if (field1.equals("") || field2.equals(""))
+            JOptionPane.showMessageDialog(_DaFrame, "Error, At least one field is empty");
+        else {
+            if (e.getSource() == _DaButton[11]) {
+                if (Visibility) {
+                    _TF_A.setEditable(false);
+                } else _TF_A.setEditable(true);
+                switchVisibility();
+            } // Visibility button
+            else if (e.getSource() == _DaButton[0]) { // #1
 
-        if (e.getSource() == _DaButton[11]) {
-            if (Visibility) {
-                _TF_A.setEditable(false);
-            } else _TF_A.setEditable(true);
-            switchVisibility();
-        } // Visibility button
-        else if (e.getSource() == _DaButton[0]) { // #1
-
-            if (_TF_A.isEditable()) {
-                X += "1";
-                _TF_A.setText(X);
-            } else {
-                Y += "1";
-                _TF_B.setText(Y);
-            }
-
-        } else if (e.getSource() == _DaButton[1]) { // #2
-
-            if (_TF_A.isEditable()) {
-                X += "2";
-                _TF_A.setText(X);
-            } else {
-                Y += "2";
-                _TF_B.setText(Y);
-            }
-
-        } else if (e.getSource() == _DaButton[2]) { // #3
-
-            if (_TF_A.isEditable()) {
-                X += "3";
-                _TF_A.setText(X);
-            } else {
-                Y += "3";
-                _TF_B.setText(Y);
-            }
-
-        } else if (e.getSource() == _DaButton[4]) { // #4
-
-            if (_TF_A.isEditable()) {
-                X += "4";
-                _TF_A.setText(X);
-            } else {
-                Y += "4";
-                _TF_B.setText(Y);
-            }
-
-        } else if (e.getSource() == _DaButton[5]) { // #5
-
-            if (_TF_A.isEditable()) {
-                X += "5";
-                _TF_A.setText(X);
-            } else {
-                Y += "5";
-                _TF_B.setText(Y);
-            }
-
-        } else if (e.getSource() == _DaButton[6]) { // #6
-
-            if (_TF_A.isEditable()) {
-                X += "6";
-                _TF_A.setText(X);
-            } else {
-                Y += "6";
-                _TF_B.setText(Y);
-            }
-
-        } else if (e.getSource() == _DaButton[8]) { // #7
-
-            if (_TF_A.isEditable()) {
-                X += "7";
-                _TF_A.setText(X);
-            } else {
-                Y += "7";
-                _TF_B.setText(Y);
-            }
-
-        } else if (e.getSource() == _DaButton[9]) { // #8
-
-            if (_TF_A.isEditable()) {
-                X += "8";
-                _TF_A.setText(X);
-            } else {
-                Y += "8";
-                _TF_B.setText(Y);
-            }
-
-        } else if (e.getSource() == _DaButton[10]) { // #9
-
-            if (_TF_A.isEditable()) {
-                X += "9";
-                _TF_A.setText(X);
-            } else {
-                Y += "9";
-                _TF_B.setText(Y);
-            }
-
-        } else if (e.getSource() == _DaButton[13]) { // # 0
-
-            if (_TF_A.isEditable()) {
-                X += "0";
-                _TF_A.setText(X);
-            } else {
-                Y += "0";
-                _TF_B.setText(Y);
-            }
-
-        }
-        // 3- 7+ 12/ 14* 15E
-
-        else if (e.getSource() == _DaButton[3]) { // # Subtraction
-            double value1 = Double.parseDouble(field1);
-            double value2 = Double.parseDouble(field2);
-
-            double rrresult = oper_x.Subtraction(value1, value2);
-            String Text_rrresult = String.valueOf(rrresult);
-
-            _TF_Result.setText(Text_rrresult);
-
-        } else if (e.getSource() == _DaButton[7]) { // # Addition
-            double value1 = Double.parseDouble(field1);
-            double value2 = Double.parseDouble(field2);
-
-            double rrresult = oper_x.Addition(value1, value2);
-            String Text_rrresult = String.valueOf(rrresult);
-
-            _TF_Result.setText(Text_rrresult);
-
-        } else if (e.getSource() == _DaButton[12]) { // # Division
-            double value1 = Double.parseDouble(field1);
-            double value2 = Double.parseDouble(field2);
-
-            double rrresult = oper_x.Division(value1, value2);
-            String Text_rrresult = String.valueOf(rrresult);
-
-            _TF_Result.setText(Text_rrresult);
-
-        } else if (e.getSource() == _DaButton[14]) { // # Multipication
-            double value1 = Double.parseDouble(field1);
-            double value2 = Double.parseDouble(field2);
-
-            double rrresult = oper_x.Multiply(value1, value2);
-            String Text_rrresult = String.valueOf(rrresult);
-
-            _TF_Result.setText(Text_rrresult);
-
-        } else {         // # backspace
-
-
-            if (e.getSource() == _DaButton[15]) {
-                // Get the current text and caret position
                 if (_TF_A.isEditable()) {
-                    field1 = _TF_A.getText();
-                    int caretPosition = _TF_A.getCaretPosition();
-
-                    if (caretPosition > 0) {
-                        // Remove the character before the caret position
-                        String modifiedText = field1.substring(0, caretPosition - 1) + field1.substring(caretPosition);
-                        _TF_A.setText(modifiedText);
-
-                        // Move the caret position back by one
-                        _TF_A.setCaretPosition(caretPosition - 1);
-                    }
+                    X += "1";
+                    _TF_A.setText(X);
                 } else {
+                    Y += "1";
+                    _TF_B.setText(Y);
+                }
 
-                    field2 = _TF_B.getText();
-                    int caretPosition = _TF_B.getCaretPosition();
+            } else if (e.getSource() == _DaButton[1]) { // #2
 
-                    if (caretPosition > 0) {
-                        // Remove the character before the caret position
-                        String modifiedText = field2.substring(0, caretPosition - 1) + field2.substring(caretPosition);
-                        _TF_B.setText(modifiedText);
+                if (_TF_A.isEditable()) {
+                    X += "2";
+                    _TF_A.setText(X);
+                } else {
+                    Y += "2";
+                    _TF_B.setText(Y);
+                }
 
-                        // Move the caret position back by one
-                        _TF_B.setCaretPosition(caretPosition - 1);
+            } else if (e.getSource() == _DaButton[2]) { // #3
+
+                if (_TF_A.isEditable()) {
+                    X += "3";
+                    _TF_A.setText(X);
+                } else {
+                    Y += "3";
+                    _TF_B.setText(Y);
+                }
+
+            } else if (e.getSource() == _DaButton[4]) { // #4
+
+                if (_TF_A.isEditable()) {
+                    X += "4";
+                    _TF_A.setText(X);
+                } else {
+                    Y += "4";
+                    _TF_B.setText(Y);
+                }
+
+            } else if (e.getSource() == _DaButton[5]) { // #5
+
+                if (_TF_A.isEditable()) {
+                    X += "5";
+                    _TF_A.setText(X);
+                } else {
+                    Y += "5";
+                    _TF_B.setText(Y);
+                }
+
+            } else if (e.getSource() == _DaButton[6]) { // #6
+
+                if (_TF_A.isEditable()) {
+                    X += "6";
+                    _TF_A.setText(X);
+                } else {
+                    Y += "6";
+                    _TF_B.setText(Y);
+                }
+
+            } else if (e.getSource() == _DaButton[8]) { // #7
+
+                if (_TF_A.isEditable()) {
+                    X += "7";
+                    _TF_A.setText(X);
+                } else {
+                    Y += "7";
+                    _TF_B.setText(Y);
+                }
+
+            } else if (e.getSource() == _DaButton[9]) { // #8
+
+                if (_TF_A.isEditable()) {
+                    X += "8";
+                    _TF_A.setText(X);
+                } else {
+                    Y += "8";
+                    _TF_B.setText(Y);
+                }
+
+            } else if (e.getSource() == _DaButton[10]) { // #9
+
+                if (_TF_A.isEditable()) {
+                    X += "9";
+                    _TF_A.setText(X);
+                } else {
+                    Y += "9";
+                    _TF_B.setText(Y);
+                }
+
+            } else if (e.getSource() == _DaButton[13]) { // # 0
+
+                if (_TF_A.isEditable()) {
+                    X += "0";
+                    _TF_A.setText(X);
+                } else {
+                    Y += "0";
+                    _TF_B.setText(Y);
+                }
+
+            }
+            // 3- 7+ 12/ 14* 15E
+
+            else if (e.getSource() == _DaButton[3]) { // # Subtraction
+                double value1 = Double.parseDouble(field1);
+                double value2 = Double.parseDouble(field2);
+
+                double rrresult = oper_x.Subtraction(value1, value2);
+                String Text_rrresult = String.valueOf(rrresult);
+
+                _TF_Result.setText(Text_rrresult);
+
+            } else if (e.getSource() == _DaButton[7]) { // # Addition
+                double value1 = Double.parseDouble(field1);
+                double value2 = Double.parseDouble(field2);
+
+                double rrresult = oper_x.Addition(value1, value2);
+                String Text_rrresult = String.valueOf(rrresult);
+
+                _TF_Result.setText(Text_rrresult);
+
+            } else if (e.getSource() == _DaButton[12]) { // # Division
+                double value1 = Double.parseDouble(field1);
+                double value2 = Double.parseDouble(field2);
+
+                double rrresult = oper_x.Division(value1, value2);
+                String Text_rrresult = String.valueOf(rrresult);
+
+                _TF_Result.setText(Text_rrresult);
+
+            } else if (e.getSource() == _DaButton[14]) { // # Multipication
+                double value1 = Double.parseDouble(field1);
+                double value2 = Double.parseDouble(field2);
+
+                double rrresult = oper_x.Multiply(value1, value2);
+                String Text_rrresult = String.valueOf(rrresult);
+
+                _TF_Result.setText(Text_rrresult);
+
+            } else {         // # backspace
+
+
+                if (e.getSource() == _DaButton[15]) {
+                    // Get the current text and caret position
+                    if (_TF_A.isEditable()) {
+                        field1 = _TF_A.getText();
+                        int caretPosition = _TF_A.getCaretPosition();
+
+                        if (caretPosition > 0) {
+                            // Remove the character before the caret position
+                            String modifiedText = field1.substring(0, caretPosition - 1) + field1.substring(caretPosition);
+                            _TF_A.setText(modifiedText);
+
+                            // Move the caret position back by one
+                            _TF_A.setCaretPosition(caretPosition - 1);
+                        }
+                    } else {
+
+                        field2 = _TF_B.getText();
+                        int caretPosition = _TF_B.getCaretPosition();
+
+                        if (caretPosition > 0) {
+                            // Remove the character before the caret position
+                            String modifiedText = field2.substring(0, caretPosition - 1) + field2.substring(caretPosition);
+                            _TF_B.setText(modifiedText);
+
+                            // Move the caret position back by one
+                            _TF_B.setCaretPosition(caretPosition - 1);
+                        }
+
                     }
-
                 }
             }
         }
