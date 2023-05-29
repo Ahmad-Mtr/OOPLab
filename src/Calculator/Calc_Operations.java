@@ -3,25 +3,25 @@ package Calculator;
 public class Calc_Operations {
 
 
-    public float Addition(float a, float b){
+    public double Addition(double a, double b){
         return a+b;
     }
-    public float Subtraction(float a, float b){
+    public double Subtraction(double a, double b){
         return a-b;
     }
-    public float Multiply(float a, float b){
+    public double Multiply(double a, double b){
         return a*b;
     }
-    public float Division(float a, float b){
+    public double Division(double a, double b){
         return a/b;
     }
-    public Double Sin(Double degree){
+    public double Sin(Double degree){
         Double U = degree * (Math.PI/180);
         return Math.sin(U);
     }
 
-    public Double Cosin(Double degree){
-        Double U = degree * (Math.PI/180);
+    public double Cosin(Double degree){
+        double U = degree * (Math.PI/180);
         return Math.cos(U);
     }
 }
