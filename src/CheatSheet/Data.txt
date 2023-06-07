@@ -32,6 +32,7 @@
     private JLabel DaLabel;
     private JButton DaButton;
     private TextField _TField1;
+    private JTextArea a1;
     private JMenuBar _MenuBar;
     private JMenu Menu1;
     private JMenuItem Item1, Item2;
@@ -42,6 +43,8 @@
             DaPanel = new JPanel();
             DaLabel = new JLabel();
             DaButton = new JButton();
+            a1 = new JTextArea();
+
 
             _MenuBar = new JMenuBar();
             Menu1 = new JMenu("Data");
@@ -94,8 +97,16 @@
     private BufferedReader _BuffRead;
     private FileWriter _FileWrite;
     private BufferedWriter _BuffWrite;
+    private JFileChooser fc;
 
     //  Initializing Components
+
+    //File Chooser
+    fc = new JFileChooser();
+    fc.showOpenDialog(null);
+    File r = fc.getSelectedFile();
+    String p = r.getAbsolutePath();
+
     // Readers init.
     _FileRead = new FileReader("PATH");
     _BuffRead = new BufferedReader(_FileRead);
