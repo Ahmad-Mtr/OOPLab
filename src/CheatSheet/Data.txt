@@ -1,0 +1,107 @@
+// GUI Libraries
+    import java.awt.*;
+    import java.awt.event.*;
+    import javax.swing.*;
+
+// Exceptions Libraries
+    import java.util.logging.Level;
+    import java.util.logging.Logger;
+
+// Files Libraries, U can use only the First, or the Below
+    import java.io.*;
+    import java.io.FileReader;
+    import java.io.FileWriter;
+    import java.io.BufferedReader;
+    import java.io.BufferedWriter;
+
+
+------------------------------------------
+
+    //  #1 Declaring Compononets | Fields
+    private JFrame DaFrame;
+    private JPanel DaPanel;
+    private JLabel DaLabel;
+    private JButton DaButton;
+
+            //  #2 initializing Components
+            DaFrame = new JFrame("Assignment");
+            DaPanel = new JPanel();
+            DaLabel = new JLabel();
+            DaButton = new JButton();
+
+            //  #3 Registering Buttons
+            DaButton.addActionListener(this);
+
+            //  #4 Adding Components
+            DaPanel.add(DaLabel);
+            DaPanel.add(DaButton);
+            DaFrame.getContentPane().add(DaPanel);
+
+            //  #5 Setting size, DefCloseOper, Visibility,...
+            DaFrame.setSize(1920,1080);
+            DaPanel.setLayout(new GridLayout(x, y));
+            DaFrame.setDefaultCloseOperation(DaFrame.EXIT_ON_CLOSE);
+            DaFrame.setVisible(true);
+
+            //  #6 Implementing AL Methods
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            if (e.getSource() == DaButton){
+
+            }
+        }
+
+------------------------------------------
+
+// Files Syntax     |   Fields
+    private FileReader _FileRead;
+    private BufferedReader _BuffRead;
+    private FileWriter _FileWrite;
+    private BufferedWriter _BuffWrite;
+
+    //  Initializing Components
+    // Readers init.
+    _FileRead = new FileReader("PATH");
+    _BuffRead = new BufferedReader(_FileRead);
+
+      // read()
+    while((_InputFileLine = _BuffRead.readLine()) != null){
+        _InputFileStr = _InputFileStr + _InputFileLine + "\n";
+    }
+
+    // Writer init.
+    _FileWrite = new FileWriter("PATH");
+    _BuffWrite = new BufferedWriter(_FileWrite);
+
+        // write()
+    _BuffWrite.write(_InputFileStr);
+     // Don't forget about append() behaviour
+    _BuffWrite.append(_InputFileStr);
+    _BuffWrite.close();
+
+
+
+------------------------------------------
+
+    // Exception syntax
+    try{
+        The code that might cause an error
+    }catch(Exception e){
+        What should be logged
+    }
+
+------------------------------------------
+
+// Exception Types
+    ArithmeticException
+    ArrayIndexOutOfBoundsException
+    ClassNotFoundException
+    FileNotFoundException
+    IOException
+    InterruptedException
+    NoSuchFieldException
+    NoSuchMethodException
+    NullPointerException
+    NumberFormatException
+    RuntimeException
+    StringIndexOutOfBoundsException

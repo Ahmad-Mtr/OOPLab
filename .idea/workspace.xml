@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="717a28e7-5fe2-4473-8983-0116a8c3e89d" name="Changes" comment="Calculator v0.2">
+    <list default="true" id="717a28e7-5fe2-4473-8983-0116a8c3e89d" name="Changes" comment="Added an ErrorMsg, will be edited later">
+      <change afterPath="$PROJECT_DIR$/src/CheatSheet/CheatSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CheatSheet/ConsoleColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CheatSheet/Data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CheatSheet/MainCS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Files_practice/Assignment4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Files_practice/Mydata.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Files_practice/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/Ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/GUI1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/GUI2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/GUI3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/GUI4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/GUI5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/GUI6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/GUI7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/GUI8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/ReadFile2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/WriteFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,18 +70,32 @@
       <recent name="C:\Users\youse\IdeaProjects\OOPLab\src\Lab_Assignment_4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\YOUSEF MAHMOUD\IdeaProjects\OOPLab\src\Mavenproject10" />
       <recent name="C:\Users\YOUSEF MAHMOUD\IdeaProjects\OOPLab\src\GUI_Practice" />
       <recent name="C:\Users\youse\IdeaProjects\OOPLab\src\Lab_Assignment_2" />
       <recent name="C:\Users\youse\IdeaProjects\OOPLab\src\Lab_Assignment_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GUI.GUI" />
+  <component name="RunManager" selected="Application.MainCS">
+    <configuration name="Assignment4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Files_practice.Assignment4" />
       <module name="OOPLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GUI.*" />
+          <option name="PATTERN" value="Files_practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheatSheet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CheatSheet.CheatSheet" />
+      <module name="OOPLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CheatSheet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,25 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pppp.MainPP" />
+    <configuration name="MainCS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CheatSheet.MainCS" />
       <module name="OOPLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pppp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GUI.main" />
-      <module name="OOPLab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GUI.*" />
+          <option name="PATTERN" value="CheatSheet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,19 +143,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Assignment4" />
+      <item itemvalue="Application.CheatSheet" />
+      <item itemvalue="Application.MainCS" />
       <item itemvalue="Application.GUI_Practice.GUI" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.main" />
-      <item itemvalue="Application.GUI" />
-      <item itemvalue="Application.MainPP" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainCS" />
+        <item itemvalue="Application.Assignment4" />
+        <item itemvalue="Application.CheatSheet" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.GUI_Practice.GUI" />
-        <item itemvalue="Application.GUI" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.MainPP" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685347858811</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added an ErrorMsg, will be edited later">
+      <created>1685348450690</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685348450690</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,7 +253,8 @@
     <MESSAGE value="Inheritance Practice" />
     <MESSAGE value="Calculator v0.1" />
     <MESSAGE value="Calculator v0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculator v0.2" />
+    <MESSAGE value="Added an ErrorMsg, will be edited later" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added an ErrorMsg, will be edited later" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -234,6 +263,15 @@
           <properties class="java.util.ConcurrentModificationException" package="java.util" />
           <option name="timeStamp" value="2" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Calculator/Main.java</url>
+          <line>3</line>
+          <properties class="Calculator.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

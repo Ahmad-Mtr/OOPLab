@@ -166,15 +166,18 @@ public class Calculator implements ActionListener {
         String field1 = _TF_A.getText();
 
         String field2 = _TF_B.getText();
-        if (field1.equals("") || field2.equals(""))
-            JOptionPane.showMessageDialog(_DaFrame, "Error, At least one field is empty");
-        else {
+//        if (field1.equals("") || field2.equals(""))
+//            JOptionPane.showMessageDialog(_DaFrame, "Error, At least one field is empty");
+//        else {
+
             if (e.getSource() == _DaButton[11]) {
                 if (Visibility) {
                     _TF_A.setEditable(false);
                 } else _TF_A.setEditable(true);
                 switchVisibility();
-            } // Visibility button
+            }
+            // Visibility button
+
             else if (e.getSource() == _DaButton[0]) { // #1
 
                 if (_TF_A.isEditable()) {
@@ -348,6 +351,6 @@ public class Calculator implements ActionListener {
                     }
                 }
             }
-        }
+        //}
     }
 }
