@@ -4,28 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="717a28e7-5fe2-4473-8983-0116a8c3e89d" name="Changes" comment="Added an ErrorMsg, will be edited later">
-      <change afterPath="$PROJECT_DIR$/src/CheatSheet/CheatSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CheatSheet/ConsoleColors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CheatSheet/Data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CheatSheet/MainCS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Files_practice/Assignment4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Files_practice/Mydata.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Files_practice/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/Ex1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/GUI1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/GUI2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/GUI3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/GUI4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/GUI5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/GUI6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/GUI7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/GUI8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/ReadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/ReadFile2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mavenproject10/WriteFile.java" afterDir="false" />
+    <list default="true" id="717a28e7-5fe2-4473-8983-0116a8c3e89d" name="Changes" comment="Summary for Final added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CheatSheet/CheatSheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CheatSheet/CheatSheet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CheatSheet/Data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CheatSheet/Data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mavenproject10/GUI8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mavenproject10/GUI8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GUI_Practice.GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GUI_Practice.GUI" />
+    <configuration name="GUI8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mavenproject10.GUI8" />
       <module name="OOPLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GUI_Practice.*" />
+          <option name="PATTERN" value="Mavenproject10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,19 +126,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.GUI8" />
       <item itemvalue="Application.Assignment4" />
       <item itemvalue="Application.CheatSheet" />
       <item itemvalue="Application.MainCS" />
-      <item itemvalue="Application.GUI_Practice.GUI" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainCS" />
+        <item itemvalue="Application.GUI8" />
         <item itemvalue="Application.Assignment4" />
         <item itemvalue="Application.CheatSheet" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.GUI_Practice.GUI" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685348450690</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Summary for Final added">
+      <created>1686136755349</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686136755350</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,7 +244,8 @@
     <MESSAGE value="Calculator v0.1" />
     <MESSAGE value="Calculator v0.2" />
     <MESSAGE value="Added an ErrorMsg, will be edited later" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added an ErrorMsg, will be edited later" />
+    <MESSAGE value="Summary for Final added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Summary for Final added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

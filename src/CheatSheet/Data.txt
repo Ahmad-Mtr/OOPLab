@@ -1,3 +1,6 @@
+    @@@@@@
+//              All used Libraries
+                        @@@@@@;
 // GUI Libraries
     import java.awt.*;
     import java.awt.event.*;
@@ -16,12 +19,23 @@
 
 
 ------------------------------------------
+    @@@@@@
+//              GUI | Graphical User Interface
+                        @@@@@@;
 
+    **Important Method*
+//  JOptionPane.showMessageDialog(parent, "String");
+    ****
     //  #1 Declaring Compononets | Fields
     private JFrame DaFrame;
     private JPanel DaPanel;
     private JLabel DaLabel;
     private JButton DaButton;
+    private TextField _TField1;
+    private JMenuBar _MenuBar;
+    private JMenu Menu1;
+    private JMenuItem Item1, Item2;
+
 
             //  #2 initializing Components
             DaFrame = new JFrame("Assignment");
@@ -29,13 +43,32 @@
             DaLabel = new JLabel();
             DaButton = new JButton();
 
+            _MenuBar = new JMenuBar();
+            Menu1 = new JMenu("Data");
+            Item1 = new JMenuItem("Set ID");
+            Item2 = new JMenuItem("Delete");
+
+
             //  #3 Registering Buttons
             DaButton.addActionListener(this);
+
+            Item1.addActionListener(this);
+            Item2.addActionListener(this);
 
             //  #4 Adding Components
             DaPanel.add(DaLabel);
             DaPanel.add(DaButton);
             DaFrame.getContentPane().add(DaPanel);
+
+            #Dealing with Menus is like this:
+            // MenuBar --> Menu --> Menu Item
+            1. Add Items to Menu
+            2. Add Menus --> MenuBar
+            3. Add MenuBar --> to its Panel
+            4. Add Other Components to their Labels
+            5. Add Panels to the main Panel ( The one that has the MenuBar)
+            6. Add that Panel with all Components to the Frame
+
 
             //  #5 Setting size, DefCloseOper, Visibility,...
             DaFrame.setSize(1920,1080);
@@ -52,6 +85,9 @@
         }
 
 ------------------------------------------
+    @@@@@@
+//              Files in Java
+                        @@@@@@;
 
 // Files Syntax     |   Fields
     private FileReader _FileRead;
@@ -82,7 +118,9 @@
 
 
 ------------------------------------------
-
+    @@@@@@
+//              Exceptions
+                        @@@@@@;
     // Exception syntax
     try{
         The code that might cause an error

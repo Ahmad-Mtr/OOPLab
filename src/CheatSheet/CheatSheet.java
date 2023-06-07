@@ -44,7 +44,7 @@ public class CheatSheet {
 
             switch (c) {
                 case 0:
-                    if (!(readLine.contains("//")) && !(readLine.contains("-"))) {
+                    if (!(readLine.contains("//")) && !(readLine.contains("----"))) {
                         System.out.println(" " + colours.BLACK_BACKGROUND + colours.YELLOW + readLine +
                                 colours.RESET);
                     } else if (readLine.contains("------------------------------------------")) {
@@ -53,7 +53,7 @@ public class CheatSheet {
                     } else System.out.println(readLine);
                     break;
                 case 1:
-                    if (!(readLine.contains("//"))&& !(readLine.contains("-"))) {
+                    if (!(readLine.contains("//"))&& !(readLine.contains("----"))) {
                         System.out.println(" " + colours.BLACK_BACKGROUND + colours.BLUE + readLine +
                                 colours.RESET);
                     } else if (readLine.contains("------------------------------------------")) {
@@ -63,7 +63,7 @@ public class CheatSheet {
 
                     break;
                 case 2:
-                    if (!(readLine.contains("//"))&& !(readLine.contains("-"))) {
+                    if (!(readLine.contains("//"))&& !(readLine.contains("----"))) {
                         System.out.println(" " + colours.BLACK_BACKGROUND + colours.GREEN + readLine +
                                 colours.RESET);
                     } else if (readLine.contains("------------------------------------------")) {
@@ -73,7 +73,7 @@ public class CheatSheet {
 
                     break;
                 case 3:
-                    if (!(readLine.contains("//")) && !(readLine.contains("-"))) {
+                    if (!(readLine.contains("//")) && !(readLine.contains("----"))) {
                         System.out.println(" " + colours.BLACK_BACKGROUND + colours.RED + readLine +
                                 colours.RESET);
                     } else if (readLine.contains("------------------------------------------")) {
@@ -83,7 +83,7 @@ public class CheatSheet {
 
                     break;
                 default:
-                    if (!(readLine.contains("//")) && !(readLine.contains("-"))) {
+                    if (!(readLine.contains("//")) && !(readLine.contains("----"))) {
                         System.out.println(" " + colours.BLACK_BACKGROUND + colours.PURPLE + readLine +
                                 colours.RESET);
                     } else if (readLine.contains("------------------------------------------")) {
