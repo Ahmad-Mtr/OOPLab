@@ -43,8 +43,8 @@ public class GUI implements ActionListener {
                 DaLabel.setText("GoodBye");
         }
     }
-    public static void main (String[] arr){
-        GUI x= new GUI();
+    public static void main (String[] arr) {
+        GUI x = new GUI();
         x.makeframe();
-    }
-}
+
+}}

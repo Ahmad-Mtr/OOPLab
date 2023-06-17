@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="717a28e7-5fe2-4473-8983-0116a8c3e89d" name="Changes" comment="Final v1.1">
-      <change afterPath="$PROJECT_DIR$/src/_Rev/MenuThing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_Rev/StudentInterface.java" afterDir="false" />
+    <list default="true" id="717a28e7-5fe2-4473-8983-0116a8c3e89d" name="Changes" comment="Final v1.2">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalRev_CS214/CheckBoxExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalRev_CS214/RadioButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CheatSheet/Data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CheatSheet/Data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI_Practice/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI_Practice/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_Rev/StudentInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_Rev/StudentInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +61,13 @@
       <recent name="C:\Users\youse\IdeaProjects\OOPLab\src\Lab_Assignment_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MenuThing">
-    <configuration name="GUI6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mavenproject10.GUI6" />
+  <component name="RunManager" selected="Application.CheckBoxExample">
+    <configuration name="CheckBoxExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FinalRev_CS214.CheckBoxExample" />
       <module name="OOPLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mavenproject10.*" />
+          <option name="PATTERN" value="FinalRev_CS214.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,25 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GUI7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mavenproject10.GUI7" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Calculator.Main" />
       <module name="OOPLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mavenproject10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GUI8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mavenproject10.GUI8" />
-      <module name="OOPLab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Mavenproject10.*" />
+          <option name="PATTERN" value="Calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,20 +114,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RadioButton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FinalRev_CS214.RadioButton" />
+      <module name="OOPLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FinalRev_CS214.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.GUI6" />
-      <item itemvalue="Application.GUI7" />
-      <item itemvalue="Application.GUI8" />
+      <item itemvalue="Application.CheckBoxExample" />
+      <item itemvalue="Application.RadioButton" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.MenuThing" />
       <item itemvalue="Application.MainCS" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MenuThing" />
-        <item itemvalue="Application.GUI8" />
+        <item itemvalue="Application.CheckBoxExample" />
+        <item itemvalue="Application.RadioButton" />
         <item itemvalue="Application.MainCS" />
-        <item itemvalue="Application.GUI6" />
-        <item itemvalue="Application.GUI7" />
+        <item itemvalue="Application.MenuThing" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686163340650</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Final v1.2">
+      <created>1686172331356</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686172331356</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +262,8 @@
     <MESSAGE value="Added an ErrorMsg, will be edited later" />
     <MESSAGE value="Summary for Final added" />
     <MESSAGE value="Final v1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final v1.1" />
+    <MESSAGE value="Final v1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final v1.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
